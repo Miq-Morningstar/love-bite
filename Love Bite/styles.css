@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: royalblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap: 3rem;
+  }
+  
+  .nav-links a,
+  .profile a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover,
+  .profile a:hover {
+    color: hotpink; /* Only text changes color */
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  /* BANNER STYLE */
+  .banner {
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .banner:hover {
+    color: hotpink;
+  }
+  
+  
